@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!-- 指定HDFS中NameNode的地址 -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://hadoop201:9000</value>
+    </property>
+    <!-- 指定hadoop运行时产生文件的存储目录 -->
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/opt/modules/hadoop-2.7.6/data</value>
+    </property>
+
+</configuration>
